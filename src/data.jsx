@@ -2,7 +2,7 @@
 export default [
     {
         id: 1,
-        imgUrl: '/card1-img.png',
+        imgUrl: 'card1-img.png',
         stickerText: 'Sold Out',
         reviewRating: 5,
         numberOfReviews: 6,
@@ -13,7 +13,7 @@ export default [
 },
 {
     id: 2,
-    imgUrl: '/card2-img.png',
+    imgUrl: 'card2-img.png',
     stickerText: 'Online',
     reviewRating: 4,
     numberOfReviews: 3,
