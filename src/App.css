@@ -1,5 +1,5 @@
 #root {
-  max-width: 1280px;
+  max-width: 550px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
@@ -48,4 +48,27 @@ nav{
 
 .read-the-docs {
   color: #888;
+}
+
+.hero{
+  padding:2rem;
+}
+
+.hero img {
+  max-width:80%;
+  margin:1.5rem auto;
+}
+
+.hero h1, .hero h5{text-align:left;
+margin:0;}
+
+.hero h1 {
+  font-size:2rem;
+  margin:1rem 0;
+}
+
+
+.hero h5{
+  max-width:60%;
+  color:#222;
 }
