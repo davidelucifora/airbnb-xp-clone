@@ -42,13 +42,6 @@ nav{
   }
 }
 
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
 
 .hero{
   padding:2rem;
@@ -73,15 +66,23 @@ margin:0;}
   color:#222;
 }
 
+
+.cards-list{
+  display:flex;
+  overflow:scroll;
+  max-width:100%;
+  
+}
+
 #card {
-  margin-top:1rem;
-  max-width:33%;
+  margin:1rem;
+  max-width:35%;
   display:flex;
   flex-flow:column;
   position:relative;
 }
 
-#little-sticker{
+.little-sticker{
   position:absolute;
   top:0.5rem;
   left:0.5rem;
@@ -89,6 +90,11 @@ margin:0;}
   padding:0 0.4rem;
   font-size:0.7rem;
   border-radius:5px;
+}
+
+.card-img{
+  border-radius:10px;
+
 }
 
 #card-desc {
@@ -124,11 +130,4 @@ margin:0;}
 
 .bold{
   font-weight:500;
-}
-
-.cards-list{
-  display:flex;
-  align-items:center;
-  justify-content:space-evenly;
-
 }

@@ -1,11 +1,11 @@
 import React from 'react'
 import Card from './card'
-import data from '/src/data'
+import data from '/src/data'    
 import App from '/src/App'
 
 
 function CardsList() {
-        
+        git 
     const renderCards = data.map(card =>
     
         <Card 
@@ -15,6 +15,7 @@ function CardsList() {
         location = {card.location}
         cardDescription = {card.cardDescription}
         price = {card.price}
+        openSpots = {card.openSpots}
         />  
     
     );

@@ -3,7 +3,8 @@ import Star from './../assets/star.svg'
 import data from './../data'
 
 function Card({
-    stickerText, 
+    openSpots,
+    isOnline, 
     cardImage,
     reviewRating,
     numberOfReviews,
@@ -11,10 +12,18 @@ function Card({
     cardDescription,
     price }){
 
+        let badgeText
+        if (openSpots === 0){
+            badgeText = 'Sold Out'
+        }
+        else if (location === 'Online') {
+            badgeText = "Online"
+        }
+
     return (
     <div id="card">
-        <img src={cardImage} />
-        <div id="little-sticker">{stickerText}</div>
+        <img src={cardImage}  className="card-img"/>
+        <div className="little-sticker">{badgeText}</div>
         <div id="card-desc">
             <div id="rating-location">
                 <img src={Star}></img>

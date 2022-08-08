@@ -9,10 +9,11 @@ export default [
         location: 'USA',
         cardDescription : 'Life Lessons with Katie Zaferes',
         price: 136,
-
-},
-{
-    id: 2,
+        openSpots : 0,
+        
+    },
+    {
+        id: 2,
     imgUrl: 'card2-img.png',
     stickerText: 'Online',
     reviewRating: 4,
@@ -20,6 +21,7 @@ export default [
     location: 'Online',
     cardDescription : 'Online Course on React',
     price: 100,
+    openSpots : 20,
 
 },
 {
@@ -31,7 +33,8 @@ export default [
     location: 'France',
     cardDescription : 'Should hav eno sticker',
     price: 200,
+    openSpots : 10
 
 },
-
+    
 ]
