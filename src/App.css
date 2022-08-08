@@ -1,24 +1,12 @@
 #root {
-  max-width: 550px;
+  max-width: 400px;
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
+  padding:14rem;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
 
 nav{
-  min-width:500px;
   padding:1rem;
   box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
   display:flex;
@@ -63,7 +51,6 @@ margin:0;}
 
 .hero h5{
   max-width:60%;
-  color:#222;
 }
 
 
@@ -90,6 +77,7 @@ margin:0;}
   padding:0 0.4rem;
   font-size:0.7rem;
   border-radius:5px;
+  color:black;
 }
 
 .card-img{

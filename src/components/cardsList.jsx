@@ -5,17 +5,12 @@ import App from '/src/App'
 
 
 function CardsList() {
-        git 
+         
     const renderCards = data.map(card =>
     
         <Card 
-        cardImage={card.imgUrl}
-        stickerText = {card.stickerText}
-        numberOfReviews = {card.numberOfReviews}
-        location = {card.location}
-        cardDescription = {card.cardDescription}
-        price = {card.price}
-        openSpots = {card.openSpots}
+        key = {card.id}
+        card = {card}
         />  
     
     );
